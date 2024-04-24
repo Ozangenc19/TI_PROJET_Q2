@@ -1,0 +1,27 @@
+/* Accueil.php */
+
+
+#Accueil {
+    display: block;
+    width: 50%;
+    background-color: dimgrey;
+    list-style: none;
+    padding: 3em;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: -7%;
+}
+
+
+#Accueil p {
+    color: white;
+    background-color: #ddd1bc;
+    border: 2px solid darkslategrey;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+
+#Accueil h1 {
+    color: black;
+}
