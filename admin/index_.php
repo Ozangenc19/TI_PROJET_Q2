@@ -5,7 +5,9 @@ require './src/php/utils/liste_includes.php';
 <!doctype html>
 <html lang="fr">
 <head>
-    <title>Demo 2023-2024</title>
+    <link rel="icon" href="//www.easy-clothes.com/cdn/shop/t/158/assets/easy-clothes-favicon.svg?v=158950920343777793401713363897" type="image/svg+xml">
+
+    <title>Easy Clothes - Admin</title>
     <meta charset="utf-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
