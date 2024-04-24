@@ -13,28 +13,22 @@ print "<div id='article'>";
    ?>
 <br>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liste des Articles</title>
-    <link href="./admin/public/css/article.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+
+<link href="./admin/public/css/article.css" rel="stylesheet" type="text/css">
 <div class="article-grids">
     <?php
 
     for($i=0; $i < $nbr_cat; $i++){
         ?>
         <div class="article-grid">
-            <img src="<?php echo $liste[$i]->image_article; ?>" alt="<?php echo $liste[$i]->nom_article; ?>" class="article-image">
-            <h3><?php echo $liste[$i]->nom_article. " pour " .$liste[$i]->prix_article . " € "?></h3>
+            <div class="desc_color" id="" >
+                <img src="./admin/public/images/<?= $liste[$i]->image_article;?>" alt="">
 
+            </div>
+            <?php echo $liste[$i]->nom_article. " pour " .$liste[$i]->prix_article . " € "?>
+            
         </div>
         <?php
     }
     ?>
 </div>
-</body>
-</html>
