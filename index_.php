@@ -17,7 +17,11 @@ require './admin/src/php/utils/liste_includes.php';
     <link href="./admin/public/css/menu.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="admin/public/css/accueil.css" type="text/css">
     <link rel="stylesheet" href="./admin/public/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./admin/public/css/article.css"  type="text/css"
     <link rel="stylesheet" href="./admin/public/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="./admin/public/css/login.css"  type="text/css">
+    <link  rel="stylesheet" href="./admin/public/css/nouveaute.css" type="text/css">
+    <script src="./admin/public/js/nouveaute.js" defer></script>
     <script src="./admin/public/js/fonctions.js"></script>
 </head>
 <body>

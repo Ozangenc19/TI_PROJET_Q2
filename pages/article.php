@@ -14,7 +14,7 @@ print "<div id='article'>";
 <br>
 
 
-<link href="./admin/public/css/article.css" rel="stylesheet" type="text/css">
+
 <div class="article-grids">
     <?php
 

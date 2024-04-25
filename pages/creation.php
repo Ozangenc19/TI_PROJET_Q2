@@ -14,7 +14,7 @@ print "</div>";
 <br>
 
 
-<link href="./admin/public/css/article.css" rel="stylesheet" type="text/css">
+
 <div class="creation_grids">
     <?php
 

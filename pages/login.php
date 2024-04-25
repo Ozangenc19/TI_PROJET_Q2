@@ -24,7 +24,7 @@ if (isset($_POST['submit_login'])) { //name du submit
 <!-- formulaire de cnx ici -->
 
 <form method="post" action="<?= $_SERVER['PHP_SELF'];?>">
-    <link href="./admin/public/css/login.css" rel="stylesheet" type="text/css">
+
 
     <div class="mb-3">
         <label for="login" class="form-label">Email address</label>

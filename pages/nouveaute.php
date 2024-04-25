@@ -11,8 +11,7 @@ print "<p3>Voici nos nouveautés</p3> ";
 print "</div>";
 ?>
 <br>
-    <link href="./admin/public/css/nouveaute.css" rel="stylesheet" type="text/css">
-    <script src="./admin/public/js/nouveaute.js" defer></script>
+
 <div class="nouveau_grids">
     <?php
     for ($i = 0; $i < $nbr_cat; $i++) {
