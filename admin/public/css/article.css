@@ -1,9 +1,10 @@
+/*Article.php*/
 .article-grids {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 200px;
 }
 
 .article-grid {
@@ -61,10 +62,10 @@ p {
 
 .creation_grids {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 200px;
 }
 
 .creation_grid {
