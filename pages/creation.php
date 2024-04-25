@@ -22,7 +22,7 @@ print "</div>";
         ?>
         <div class="creation_grid">
             <div class="desc_color" id="" >
-                <img src="./admin/public/images/<?= $liste[$i]->image_article;?>" alt="">
+                <img src="./admin/public/images/<?= $liste[$i]->image_creation;?>" alt="">
 
             </div>
             <?php echo $liste[$i]->nom_creation. " pour " .$liste[$i]->prix_creation . " € " ?>
