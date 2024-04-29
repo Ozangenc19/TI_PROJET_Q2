@@ -49,5 +49,3 @@ else{
 <?php
 }
 
-
-//affichage des clients existants

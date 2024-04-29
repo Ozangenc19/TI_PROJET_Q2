@@ -1,4 +1,3 @@
-
 <?php
 $cat = new CreationDB($cnx);
 $liste = $cat->getAllCreations();

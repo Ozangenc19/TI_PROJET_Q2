@@ -1,5 +1,3 @@
-
-
 <?php
 $cat = new ArticleDB($cnx);
 $liste = $cat->getAllArticles();

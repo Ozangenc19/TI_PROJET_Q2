@@ -5,6 +5,7 @@
         <li class="card"><a href="index_.php?page=article.php">Articles</a></li>
         <li class="card"><a href="index_.php?page=creation.php">Creation</a></li>
         <li class="card"><a href="index_.php?page=nouveaute.php">Nouveautes</a></li>
+        <li class="card"><a href="index_.php?page=panier.php">Panier</a></li>
     </ul>
 </div>
 
