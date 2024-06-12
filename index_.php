@@ -5,8 +5,7 @@ require './admin/src/php/utils/liste_includes.php';
 <!doctype html>
 <html lang="fr">
 <head>
-    <link rel="icon" href="//www.easy-clothes.com/cdn/shop/t/158/assets/easy-clothes-favicon.svg?v=158950920343777793401713363897" type="image/svg+xml">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="shortcut icon" href="//www.deshabitsetnous.be/cdn/shop/files/deshabitsetnousfavicon_32x32.png?v=1643809034" type="image/png">    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 
     <title>Easy Clothes</title>
@@ -14,13 +13,7 @@ require './admin/src/php/utils/liste_includes.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
-    <link href="./admin/public/css/menu.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="admin/public/css/accueil.css" type="text/css">
-    <link rel="stylesheet" href="./admin/public/css/style.css" type="text/css">
-    <link rel="stylesheet" href="./admin/public/css/article.css"  type="text/css"
-    <link rel="stylesheet" href="./admin/public/css/custom.css" type="text/css">
-    <link rel="stylesheet" href="./admin/public/css/login.css"  type="text/css">
-    <link  rel="stylesheet" href="./admin/public/css/nouveaute.css" type="text/css">
+    <link rel="stylesheet" href="admin/public/css/public.css" type="text/css">
     <script src="./admin/public/js/nouveaute.js" defer></script>
     <script src="./admin/public/js/fonctions.js"></script>
 </head>

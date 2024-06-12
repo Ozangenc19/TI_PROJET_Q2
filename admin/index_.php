@@ -5,16 +5,16 @@ require './src/php/utils/liste_includes.php';
 <!doctype html>
 <html lang="fr">
 <head>
-    <link rel="icon" href="//www.easy-clothes.com/cdn/shop/t/158/assets/easy-clothes-favicon.svg?v=158950920343777793401713363897" type="image/svg+xml">
-
+    <link rel="shortcut icon" href="//www.deshabitsetnous.be/cdn/shop/files/deshabitsetnousfavicon_32x32.png?v=1643809034" type="image/png">
     <title>Easy Clothes - Admin</title>
     <meta charset="utf-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./public/css/style.css" type="text/css">
 
-    <link href="./public/css/menu_admin.css" rel="stylesheet" type="text/css">
+
+    <link href="./public/css/admin.css." rel="stylesheet" type="text/css">
     <script src="./public/js/fonctions.js"></script>
+    <script src="public/js/contact.js"></script>
 </head>
 <body>
 <div class="container">
@@ -27,7 +27,7 @@ require './src/php/utils/liste_includes.php';
             include './src/php/utils/menu_admin.php';
         }
         ?>
-        <a href="index_.php?page=disconnect.php">Log out ADMIN</a>
+
     </nav>
     <div id="contenu">
         <?php

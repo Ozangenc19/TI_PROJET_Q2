@@ -1,6 +1,5 @@
 <h2>Gestion des clients</h2>
-<a href="index_.php?page=ajout_client.php">Nouveau client</a><br>
-
+<a id="ajout_client" href="index_.php?page=ajout_client.php">Nouveau client</a><br>
 <?php
 
 $clients = new ClientDB($cnx);
@@ -23,6 +22,7 @@ else{
             <th scope="col">Email</th>
             <th scope="col">Adresse</th>
             <th scope="col">Numéro</th>
+            <th scope="col">Modifier</th>
             <th scope="col">Supprimer</th>
         </tr>
 
@@ -38,14 +38,26 @@ else{
             <td contenteditable="true" id="<?= $liste[$i]->id_client;?>" name="email"><?= $liste[$i]->email;?></td>
             <td contenteditable="true" id="<?= $liste[$i]->id_client;?>" name="adresse"><?= $liste[$i]->adresse;?></td>
             <td contenteditable="true" id="<?= $liste[$i]->id_client;?>" name="numero"><?= $liste[$i]->numero;?></td>
-            <td contenteditable="true"><img src="public/images/delete.jpg" alt="Effacer" id="delete"></td>
+
+
+            <td class="modif_td">
+                <button data-id="<?= $liste[$i]->id_client; ?>" class="btn btn_modif"><a href="index_.php?id_client=<?php print $liste[$i]->id_client;?>&page=modifier_client.php"><i class="bi bi-brush modif"></i></a></button>
+            </td>
+            <td class="delete_td">
+                <button data-id="<?= $liste[$i]->id_client; ?>" class="btn btn_delete"><i class="bi bi-trash3-fill delete"></i></button>
+            </td>
         </tr>
+
+
+
             <?php
         }
         ?>
 
         </tbody>
     </table>
+
 <?php
+
 }
 

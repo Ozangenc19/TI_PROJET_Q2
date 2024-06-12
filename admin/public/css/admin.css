@@ -1,0 +1,291 @@
+/*contact.php*/
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #ddd1bc;
+    color: black;
+    border: 1px solid #dddddd;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #f0f0f0;
+}
+
+#reponse{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffded7;
+    border: 1px solid #f3bbbb;
+    color: #734848;
+}
+
+/*gestion_client.php*/
+
+#ajout_client{
+    color: #ddd1bc;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+#ajout_client:hover{
+    color: #000000;
+}
+
+
+.btn_delete {
+    background-color: #ddd1bc;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.btn_delete .delete {
+    vertical-align: middle;
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+
+.btn_delete:hover {
+    background-color: #ddd1bc;
+}
+
+.btn_modif {
+    background-color: #ddd1bc;
+    border: none;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+
+.btn_modif .modif {
+    vertical-align: middle;
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+
+.btn_modif:hover {
+    background-color: #ddd1bc;
+}
+
+/*jquery.php*/
+.image{
+    display: block;
+    margin: 0 auto;
+
+}
+h1{
+    text-align: center;
+}
+button {
+
+    background-color: #ddd1bc;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color:  #f0f0f0;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#cacher{
+    background-color: #ddd1bc;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+    transition: background-color 0.3s ease;
+}
+#cacher:hover{
+    background-color:  #f0f0f0;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*menu_admin.php*/
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, whitesmoke, #ddd1bc);
+    overflow-x: hidden;
+}
+
+#page{
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+
+}
+
+.menu_admin{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, whitesmoke, #ddd1bc);
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+header {
+    margin: 0 auto;
+    width: 500px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+#main{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*Menu*/
+ul.cards_admin {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+li.card_admin {
+    margin: 0 10px;
+}
+
+li.card_admin a {
+    background-color: #ddd1bc;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+}
+
+
+li.card_admin a:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+.footer-colonne {
+    display: inline-block;
+    position: initial;
+    text-align: left;
+}
+
+.footer-colonne h4 {
+    font-size: 18px;
+    color: dimgrey;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-colonne h4::before {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: dimgrey;
+    height: 2px;
+    box-sizing: border-box;
+    width: 140px;
+}
+
+.footer-colonne ul li {
+    display: block;
+    font-size: 16px;
+    text-transform: none;
+    color: dimgrey;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.footer-colonne ul li:hover {
+    color: white;
+    background-color: dimgrey;
+    padding-left: 5px;
+}
+.footer-colonne .lien-social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    transition: all 0.5s ease;
+    margin-top: 68px;
+}
+
+.footer-colonne .lien-social a:hover {
+    color: black;
+    background-color: white;
+}
+.footer-colonne .lien-social a:hover#instagram{
+    color: #DD2A7B;
+}
+.footer-colonne .lien-social a:hover#facebook{
+    color: #3B5998;
+}
+.footer-colonne .lien-social a:hover#twitter{
+    color: #00ACEE;
+}
+
+

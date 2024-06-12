@@ -1,3 +1,4 @@
+<link href="./public/css/contact.css" rel="stylesheet" type="text/css">
 <h2>Gestion des clients</h2>
 <div class="container">
     <form id="form_ajout" method="get" action="">
@@ -22,8 +23,9 @@
             <input type="text" class="form-control" id="numero" name="numero">
         </div>
         <button type="submit" id="texte_bouton_submit" value="Ajouter" class="btn btn-primary">
-            Ajouter ou Modifier
+            Ajouter
         </button>
         <button class="btn btn-primary" type="reset" id="reset">Annuler</button>
+
     </form>
 </div>
