@@ -82,22 +82,14 @@ class ClientDB
 
     public function getClientById($id)
     {
-        $query = "select * from vue_clients where id_client = :$id";
         try {
-            $this->_bd->beginTransaction();
-            $resultset = $this->_bd->prepare($query);
-            $resultset->bindvalue(':id', $id);
-            $resultset->execute();
-            $data = $resultset->fetchAll();
-            foreach ($data as $d) {
-                $_array[] = new Client($d);
-            }
-            return $_array;
-            $this->_bd->commit();
-
+            $query = "select * from client where id_client = :id";
+            $res = $this->_bd->prepare($query);
+            $res->bindValue(':id', $id);
+            $res->execute();
+            return $res->fetchAll(PDO::FETCH_OBJ);
         } catch (PDOException $e) {
-            $this->_bd->rollback();
-            print "Echec de la requête " . $e->getMessage();
+            print "Echec " . $e->getMessage();
         }
     }
 

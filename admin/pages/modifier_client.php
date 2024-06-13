@@ -1,7 +1,8 @@
 <?php
 require 'src/php/utils/verifier_connexion.php';
 $clients = new ClientDB($cnx);
-$liste = $clients->getAllClients();
+$id_client = $_GET['id_client'];
+$liste = $clients->getClientById($id_client);
 if ($liste) {
     $id = $liste[0]->id_client;
     $nom = $liste[0]->nom_client;
@@ -12,7 +13,7 @@ if ($liste) {
 }
 ?>
 
-<h2>Modifier une client</h2>
+<h2>Modifier un client</h2>
 <br>
 <div class="container">
     <form method="get" id="formulaire_modifierClient" action="">

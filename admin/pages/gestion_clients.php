@@ -41,10 +41,10 @@ else{
 
 
             <td class="modif_td">
-                <button data-id="<?= $liste[$i]->id_client; ?>" class="btn btn_modif"><a href="index_.php?id_client=<?php print $liste[$i]->id_client;?>&page=modifier_client.php"><i class="bi bi-brush modif"></i></a></button>
+                <button data-id="<?= $liste[$i]->id_client; ?>" class="btn btn_modif"><a href="index_.php?id_client=<?php print $liste[$i]->id_client;?>&page=modifier_client.php"><i class="bi bi-brush modif"></i>Modifier</a></button>
             </td>
             <td class="delete_td">
-                <button data-id="<?= $liste[$i]->id_client; ?>" class="btn btn_delete"><i class="bi bi-trash3-fill delete"></i></button>
+                <button data-id="<?= $liste[$i]->id_client; ?>" class="btn btn_delete"><i class="bi bi-trash3-fill delete"></i>Supprimer</button>
             </td>
         </tr>
 
