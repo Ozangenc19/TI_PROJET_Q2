@@ -22,20 +22,20 @@ if ($liste) {
             <label for="nom" class="col-sm-2 col-form-label">Prenom</label>
             <div class="col-sm-10">
                 <input type="hidden" name="id" id="id" value="<?= $id; ?>">
-                <input type="text" class="form-control" id="email" name="email" placeholder="email"
+                <input type="text" class="form-control" id="email" name="email" placeholder="prenom"
                        value="<?= $prenom; ?>">
-            </div>
-        </div>
-        <div class="form-group row mb-3">
-            <label for="email" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" id="nom" name="nom" placeholder="nom" value="<?= $email; ?>">
             </div>
         </div>
         <div class="form-group row mb-3">
             <label for="prenom" class="col-sm-2 col-form-label">Nom</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="prenom" value="<?= $nom; ?>">
+                <input type="text" class="form-control" id="prenom" name="prenom" placeholder="nom" value="<?= $nom; ?>">
+            </div>
+        </div>
+        <div class="form-group row mb-3">
+            <label for="email" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="nom" name="nom" placeholder="email" value="<?= $email; ?>">
             </div>
         </div>
         <div class="form-group row mb-3">
